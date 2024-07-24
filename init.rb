@@ -3,6 +3,11 @@ require_relative "petuch"
 require_relative "dog"
 require_relative "cat"
 
-petuch = Petuch.new(wool: "black", weight: 423)
+petuch = Petuch.new(wool: 'black', weight: 423)
+kisa=Cat.new(wool: 'white', weight: 30)
+tuzik=Dog.new(talk: 'raff', wool: 'white', weight: 60)
 
 petuch.animal_info(petuch)
+kisa.animal_info(kisa)
+tuzik.animal_info(tuzik)
+

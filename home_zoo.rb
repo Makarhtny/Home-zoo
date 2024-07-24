@@ -1,6 +1,7 @@
 class Animal
   attr_accessor :talk, :wool, :weight
-  def initialize(talk, wool, weight)
+
+  def initialize(talk = '', wool = '', weight = 0)
     @talk = talk
     @wool = wool
     @weight = weight
